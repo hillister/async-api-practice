@@ -19,4 +19,7 @@ async function data(){
     }  
 }
 
-data()
+
+document.getElementById('getInfo').addEventListener('click', () => {
+    data()
+})
